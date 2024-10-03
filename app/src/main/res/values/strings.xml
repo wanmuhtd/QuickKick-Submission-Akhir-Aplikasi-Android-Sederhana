@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">Quick Kick</string>
+    <string name="shoes_name">Shoes Name</string>
+    <string name="type">Type</string>
+    <string name="price">Price</string>
+    <string name="color">Color</string>
+    <string name="description">Description</string>
+    <string name="detail">Product Information</string>
+    <string name="about_user_icon">about_user_icon</string>
+    <string name="back_icon">back icon</string>
+    <string name="share">Share</string>
+    <string name="about_me">About Me</string>
+    <string name="profile_image">profile image</string>
+    <string name="user_name">Arwan Muhtada</string>
+    <string name="user_email">ryskrnzo@gmail.com</string>
+    <string name="user_description">Hi everyone! My name is Arwan Muhtada. \nI am part of the Bangkit Academy 2024 By Google, GoTo, Tokopedia, Traveloka - Android Learning Path.\n\nIt is my project for Submission Akhir Aplikasi Android Sederhana, Belajar Membuat Aplikasi Android untuk Pemula - Dicoding Course.</string>
+
+    <string-array name="data_name">
+        <item>Nike Air Max 270</item>
+        <item>Nike V2K Run GORE-TEX</item>
+        <item>Nike Air Force 1 \'07</item>
+        <item>Nike Zoom Pegasus 41</item>
+        <item>Nike Cortez Textile</item>
+        <item>Nike Dunk Low Retro</item>
+        <item>Nike Dunk High Retro SE</item>
+        <item>Nike Vaporfly 3</item>
+        <item>Nike Zoom Vomero 5</item>
+        <item>Nike Air Max 1 SP</item>
+    </string-array>
+
+    <string-array name="data_type">
+        <item>Older Kids\' Shoes</item>
+        <item>Women\'s Waterproof Shoes</item>
+        <item>Men\'s Shoes</item>
+        <item>Men\'s Road-Running Shoes</item>
+        <item>Men\'s Shoes</item>
+        <item>Men\'s Shoes</item>
+        <item>Men\'s Shoes</item>
+        <item>Men\'s Road-Running Shoes</item>
+        <item>Women\'s Shoes</item>
+        <item>Women\'s Shoes</item>
+    </string-array>
+
+    <string-array name="data_price">
+        <item>Rp 1.679.000</item>
+        <item>Rp 2.379.000</item>
+        <item>Rp 1.549.000</item>
+        <item>Rp 2.199.000</item>
+        <item>Rp 1.399.000</item>
+        <item>Rp 1.549.000</item>
+        <item>Rp 2.129.000</item>
+        <item>Rp 3.399.000</item>
+        <item>Rp 2.489.000</item>
+        <item>Rp 2.669.000</item>
+    </string-array>
+
+    <string-array name="data_color">
+        <item>White/Metallic Silver/White</item>
+        <item>Light Iron Ore/Light Bone/Khaki/Light Iron Ore</item>
+        <item>White/White</item>
+        <item>White/Metallic Gold/Light</item>
+        <item>Gorge Green/Sail/Alpha Orange/Yellow Ochre</item>
+        <item>White/White/Black</item>
+        <item>Phantom/Pale Ivory/Gum Yellow/Racer Blue</item>
+        <item>Volt/Scream Green/Barely Volt/Black</item>
+        <item>Pale Ivory/Pale Ivory/Sand Drift/Pale Ivory</item>
+        <item>Mystic Red/Metallic Silver</item>
+    </string-array>
+
+    <string-array name="data_description">
+        <item>Nike\'s first lifestyle Air Max shoe is everything you imagined with the Nike Air Max 270. What we love most (for obvious reasons): the BIG, bold wraparound 270 Air unit to showcase our greatest technology everywhere you go.</item>
+        <item>This winterized version of the V2K adds a GORE-TEX upper to an early 2000s running style. For more Y2K energy, its chunky heel provides ample cushioning while keeping the fit lightweight.</item>
+        <item>The radiance lives on in the Nike Air Force 1 \'07, the basketball original that puts a fresh spin on what you know best: durably stitched overlays, clean finishes and the perfect amount of flash to make you shine.</item>
+        <item>Responsive cushioning in the Pegasus provides an energised ride for everyday road running. Experience lighter-weight energy return with dual Air Zoom units and a ReactX foam midsole. Plus, improved engineered mesh on the upper decreases weight and increases breathability.</item>
+        <item>You spoke. We listened. Based on your feedback, we\'ve revamped the original Cortez while maintaining the retro appeal you know and love. Now with a wider toe area and firmer side panels, you can comfortably wear them day in and day out. Plus, the textile upper has been re-engineered to help prevent warping or creasing. Cortez fans—this one\'s for you.</item>
+        <item>Created for the hardwood but taken to the streets, the Nike Dunk Low Retro returns with crisp overlays and original team colours. This basketball icon channels \'80s vibes with premium leather in the upper that looks good and breaks in even better. Modern footwear technology helps bring the comfort into the 21st century.</item>
+        <item>You can always count on a classic. A retro look is combined with plush padding for game-changing comfort that lasts. The possibilities are endless—how will you wear your Dunks?</item>
+        <item>Catch \'em if you can. Giving you race-day speed to conquer any distance, the Nike Vaporfly 3 is made for the chasers, the racers and the elevated pacers who can\'t turn down the thrill of the pursuit. We reworked the leader of the super shoe pack and tuned the engine underneath to help you chase personal bests from a 10K to marathon. From elite runners to those new to racing, this versatile road-racing workhorse is for those who see speed as a gateway to more miles and more seemingly uncatchable highs.</item>
+        <item>Carve a new lane for yourself in the Zoom Vomero 5—your go-to for complexity, depth and now, easy styling. The richly layered design includes textiles, leather and plastic accents that come together to make one of the coolest sneakers of the season. It\'s a true tech meets low-key love story.</item>
+        <item>Meet the leader of the pack. Walking on clouds above the noise, the Air Max 1 blends timeless design with cushioned comfort. Sporting a wavy mudguard and a fast-paced look, this icon hit the scene in \'87 and continues to be the soul of the franchise today.</item>
+    </string-array>
+
+    <integer-array name="data_photo">
+        <item>@drawable/nike_air_max_270_white</item>
+        <item>@drawable/nike_v2k_run_gore_tex</item>
+        <item>@drawable/nike_air_force_1_07</item>
+        <item>@drawable/nike_zoom_pegasus_41</item>
+        <item>@drawable/nike_cortez_txt</item>
+        <item>@drawable/nike_dunk_low_retro</item>
+        <item>@drawable/nike_dunk_high_retro_se</item>
+        <item>@drawable/nike_vaporfly_3</item>
+        <item>@drawable/nike_zoom_vomero_5</item>
+        <item>@drawable/nike_air_max_1_sp</item>
+    </integer-array>
+
+</resources>
