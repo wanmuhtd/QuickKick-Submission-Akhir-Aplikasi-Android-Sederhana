@@ -4,7 +4,7 @@
 
 ### Splash Activity
 <div style="display: flex; justify-content: center;">
-  <img src="screenshots/SplashActivity.jpg" alt="Splash Activity" width="300"/>
+  <img src="screenshots/SplashActivity.jpg" alt="Splash Activity" width="200"/>
 </div>
 
 ### Main Activity
