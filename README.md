@@ -2,6 +2,11 @@
 
 ## Screenshots
 
+### Splash Activity
+<div style="display: flex; justify-content: center;">
+  <img src="screenshots/SplashActivity.jpg" alt="Splash Activity" width="300"/>
+</div>
+
 ### Main Activity
 <div style="display: flex; justify-content: space-between;">
   <img src="screenshots/MainActivity.jpg" alt="Main Activity" width="200"/>
@@ -18,14 +23,11 @@
   <img src="screenshots/Share_DarkMode.jpg" alt="Share Page Dark Mode" width="200"/>
 </div>
 
-### Landscape Mode and Splash Activity
+### Landscape Mode
 <div style="display: flex; justify-content: space-between;">
   <img src="screenshots/MainActivity_Landscape.jpg" alt="Main Activity Landscape" width="200"/>
   <img src="screenshots/MainActivity_Landscape_DarkMode.jpg" alt="Main Activity Landscape Dark Mode" width="200"/>
-  <img src="screenshots/SplashActivity.jpg" alt="Splash Activity" width="200"/>
 </div>
-
-
 
 ## Installation and Setup
 
