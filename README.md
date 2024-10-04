@@ -1,7 +1,7 @@
 # Quick Kick - Submission Akhir Aplikasi Android Sederhana
 
 ## Screenshot
-![MainActivity](screenshots/MainActivity.png)
+![MainActivity](screenshot/MainActivity.jpg)
 
 ## Installation and Setup
 
