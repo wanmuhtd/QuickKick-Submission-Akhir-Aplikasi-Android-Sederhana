@@ -4,23 +4,23 @@
 
 ### Splash Activity
 <div style="display: flex; justify-content: center;">
-  <img src="screenshots/SplashActivity.jpg" alt="Splash Activity" width="200"/>
+  <img src="screenshots/SplashActivity.jpg" alt="Splash Activity" width="100"/>
 </div>
 
 ### Main Activity
 <div style="display: flex; justify-content: space-between;">
-  <img src="screenshots/MainActivity.jpg" alt="Main Activity" width="200"/>
-  <img src="screenshots/MainActivity_DarkMode.jpg" alt="Main Activity Dark Mode" width="200"/>
-  <img src="screenshots/DetailActivity.jpg" alt="Detail Activity" width="200"/>
-  <img src="screenshots/DetailActivity_DarkMode.jpg" alt="Detail Activity Dark Mode" width="200"/>
+  <img src="screenshots/MainActivity.jpg" alt="Main Activity" width="100"/>
+  <img src="screenshots/MainActivity_DarkMode.jpg" alt="Main Activity Dark Mode" width="100"/>
+  <img src="screenshots/DetailActivity.jpg" alt="Detail Activity" width="100"/>
+  <img src="screenshots/DetailActivity_DarkMode.jpg" alt="Detail Activity Dark Mode" width="100"/>
 </div>
 
 ### About Page and Share Page
 <div style="display: flex; justify-content: space-between;">
-  <img src="screenshots/AboutPage.jpg" alt="About Page" width="200"/>
-  <img src="screenshots/AboutPage_DarkMode.jpg" alt="About Page Dark Mode" width="200"/>
-  <img src="screenshots/Share.jpg" alt="Share Page" width="200"/>
-  <img src="screenshots/Share_DarkMode.jpg" alt="Share Page Dark Mode" width="200"/>
+  <img src="screenshots/AboutPage.jpg" alt="About Page" width="100"/>
+  <img src="screenshots/AboutPage_DarkMode.jpg" alt="About Page Dark Mode" width="100"/>
+  <img src="screenshots/Share.jpg" alt="Share Page" width="100"/>
+  <img src="screenshots/Share_DarkMode.jpg" alt="Share Page Dark Mode" width="100"/>
 </div>
 
 ### Landscape Mode
