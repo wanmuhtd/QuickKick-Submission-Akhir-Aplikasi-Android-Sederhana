@@ -1,4 +1,15 @@
 # Quick Kick - Submission Akhir Aplikasi Android Sederhana
+Quick Kick merupakan proyek akhir dari course **Dicoding: Belajar Membuat Aplikasi Android untuk Pemula**.
+
+## Fitur
+
+- [x] Terdapat **SplashActivity** untuk layar pembuka aplikasi.
+- [x] Tampilan **MainActivity** yang berisi daftar produk sepatu.
+- [x] Mode gelap tersedia pada semua halaman aplikasi.
+- [x] **DetailActivity** untuk melihat informasi lebih lengkap tentang produk.
+- [x] Halaman **About Page** untuk menampilkan informasi tentang aplikasi.
+- [x] Fungsi **Share** untuk berbagi produk melalui aplikasi lain.
+- [x] Dukungan **Landscape Mode** untuk tampilan horizontal.
 
 ## Screenshots
 
