@@ -8,7 +8,6 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import androidx.appcompat.widget.Toolbar
 
 class DetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -45,7 +44,7 @@ class DetailActivity : AppCompatActivity() {
         }
 
         val shareAction: TextView = findViewById(R.id.action_share)
-        shareAction.setOnClickListener{
+        shareAction.setOnClickListener {
             shareItem(shoes)
             true
         }
@@ -55,13 +54,15 @@ class DetailActivity : AppCompatActivity() {
         val shareIntent = Intent(Intent.ACTION_SEND).apply {
             type = "text/plain"
             putExtra(Intent.EXTRA_SUBJECT, "Check out these shoes!")
-            putExtra(Intent.EXTRA_TEXT, """
+            putExtra(
+                Intent.EXTRA_TEXT, """
                 Name: ${shoes?.name}
                 Type: ${shoes?.type}
                 Price: ${shoes?.price}
                 Description: ${shoes?.description}
                 Color: ${shoes?.color}
-            """.trimIndent())
+            """.trimIndent()
+            )
         }
         startActivity(Intent.createChooser(shareIntent, "Share via"))
     }

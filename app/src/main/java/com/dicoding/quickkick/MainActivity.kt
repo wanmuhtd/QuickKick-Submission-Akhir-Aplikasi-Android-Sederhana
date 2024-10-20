@@ -72,7 +72,14 @@ class MainActivity : AppCompatActivity() {
         val dataPhoto = resources.obtainTypedArray(R.array.data_photo)
         val listShoes = ArrayList<Shoes>()
         for (i in dataName.indices) {
-            val shoes = Shoes(dataName[i], dataType[i], dataPrice[i], dataColor[i], dataDescription[i],dataPhoto.getResourceId(i, -1))
+            val shoes = Shoes(
+                dataName[i],
+                dataType[i],
+                dataPrice[i],
+                dataColor[i],
+                dataDescription[i],
+                dataPhoto.getResourceId(i, -1)
+            )
             listShoes.add(shoes)
         }
         return listShoes

@@ -23,6 +23,7 @@
             android:paddingBottom="30dp"
             android:background="@drawable/rounded_shape"
             android:clipToOutline="true"
+            android:contentDescription="@string/shoes_image"
             tools:src="@drawable/nike_air_force_1_07"
             tools:ignore="UnusedAttribute" />
 

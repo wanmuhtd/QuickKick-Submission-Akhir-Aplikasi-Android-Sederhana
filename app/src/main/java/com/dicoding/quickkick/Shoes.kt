@@ -5,5 +5,10 @@ import kotlinx.parcelize.Parcelize
 
 @Parcelize
 data class Shoes(
-    val name: String, val type: String, val price: String, val color: String, val description: String, val photo: Int
+    val name: String,
+    val type: String,
+    val price: String,
+    val color: String,
+    val description: String,
+    val photo: Int
 ) : Parcelable

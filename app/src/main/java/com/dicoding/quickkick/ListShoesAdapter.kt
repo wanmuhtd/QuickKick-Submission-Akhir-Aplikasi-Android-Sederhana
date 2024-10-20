@@ -3,11 +3,11 @@ package com.dicoding.quickkick
 import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.dicoding.quickkick.databinding.ItemCardviewShoesBinding
 
-class ListShoesAdapter(private val listShoes: ArrayList<Shoes>) : RecyclerView.Adapter<ListShoesAdapter.ListViewHolder>() {
+class ListShoesAdapter(private val listShoes: ArrayList<Shoes>) :
+    RecyclerView.Adapter<ListShoesAdapter.ListViewHolder>() {
     private lateinit var onItemClickCallBack: OnItemClickCallBack
 
     fun setOnItemClickCallBack(onItemClickCallBack: OnItemClickCallBack) {
@@ -15,7 +15,11 @@ class ListShoesAdapter(private val listShoes: ArrayList<Shoes>) : RecyclerView.A
     }
 
     override fun onCreateViewHolder(viewGroup: ViewGroup, i: Int): ListViewHolder {
-        val binding = ItemCardviewShoesBinding.inflate(LayoutInflater.from(viewGroup.context), viewGroup, false)
+        val binding = ItemCardviewShoesBinding.inflate(
+            LayoutInflater.from(viewGroup.context),
+            viewGroup,
+            false
+        )
         return ListViewHolder(binding)
     }
 
@@ -37,7 +41,8 @@ class ListShoesAdapter(private val listShoes: ArrayList<Shoes>) : RecyclerView.A
 
     override fun getItemCount(): Int = listShoes.size
 
-    class ListViewHolder (var binding: ItemCardviewShoesBinding) : RecyclerView.ViewHolder(binding.root)
+    class ListViewHolder(var binding: ItemCardviewShoesBinding) :
+        RecyclerView.ViewHolder(binding.root)
 
     interface OnItemClickCallBack {
         fun onItemClicked(data: Shoes)
